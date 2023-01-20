@@ -1,22 +1,22 @@
 body {
-  background-color: white;
-  color: black;
+  background-color: #0c0820;
+  color: rgb(255, 251, 249);
 }
 
 h2 {
-  color: rgb(0, 0, 0);
+  color: #dd8e33;
   font-weight: 600;
   font-style: italic;
 }
 
 nav {
-  background-color: #ffffff;
+  background-color: #0c0820;
 }
 nav a {
-  color: rgb(0, 0, 0) !important;
+  color: #225680 !important;
 }
-nav a:hover {
-  color: rgb(17, 0, 255) !important;
+nav a:hover, nav a.navbar-brand {
+  color: #dd8e33 !important;
 }
 
 #evidence img {
@@ -30,10 +30,10 @@ nav a:hover {
   scale: 1;
   transition: scale 0.5s ease;
   border-radius: 10px;
-  border: 2px solid rgba(64, 77, 255, 0.144);
-  box-shadow: 3px 3px 10px rgba(64, 77, 255, 0.144) !important;
-  background-color: rgb(255, 255, 255);
-  color: rgb(27, 27, 27);
+  border: 2px solid #dd8e33;
+  box-shadow: 3px 3px 10px #dd8e33 !important;
+  background-color: #225680;
+  color: white;
 }
 .card .card-body {
   display: flex;
@@ -53,20 +53,20 @@ nav a:hover {
 }
 .card small {
   background: none;
-  color: rgb(27, 27, 27) !important;
+  color: white !important;
 }
 .card a {
   background-color: white !important;
-  color: black !important;
-  border-color: blue !important;
+  color: #d72638 !important;
+  border-color: #d72638 !important;
 }
 .card a:hover {
-  background-color: blue !important;
+  background-color: #d72638 !important;
   color: white !important;
 }
 
 #testimonials {
-  background: rgba(255, 255, 255, 0.5) !important;
+  background: rgba(255, 255, 255, 0.4) !important;
   -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px) !important;
   border: 1px solid rgba(255, 255, 255, 0.25) !important;
@@ -78,16 +78,16 @@ nav a:hover {
   padding: 30px;
 }
 #testimonials img {
-  box-shadow: 2px 2px 10px rgb(17, 0, 255);
+  box-shadow: 2px 2px 10px #dd8e33;
 }
 #testimonials h5,
 #testimonials div > div > p {
-  color: rgb(17, 0, 255);
+  color: #dd8e33;
 }
 #testimonials div > div > p:last-child {
-  color: black;
+  color: rgb(255, 251, 249);
 }
 
 footer p {
-  color: black;
+  color: rgb(165, 165, 165) !important;
 }/*# sourceMappingURL=app.css.map */
