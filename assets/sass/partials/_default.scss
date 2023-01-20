@@ -1,0 +1,45 @@
+$bg-color: white;
+$txt-color: black;
+$txt-accent: rgb(17, 0, 255);
+$navbar-bg: #ffffff;
+$navbar-txt: rgb(0, 0, 0);
+$hn-color: rgb(0, 0, 0);
+$card-bg: rgb(255, 255, 255);
+$card-txt: rgb(27, 27, 27);
+$pfbtn-bg: white;
+$pfbtn-bghover: blue;
+$pfbtn-txt: black;
+$pfbtn-txthover: white;
+$card-border: rgba(64, 77, 255, 0.144);
+
+@mixin darkBg($status: false) {
+  @if $status {
+    background-color: $bg-color-special;
+  } @else {
+    background-color: $bg-color;
+  }
+}
+@mixin darkTxt($status: false) {
+  @if $status {
+    color: $txt-color-special;
+  } @else {
+    color: $txt-color;
+  }
+}
+
+body {
+  @include darkBg($specialTheme);
+  @include darkTxt($specialTheme);
+}
+
+h2 {
+  @if $specialTheme {
+    color: $hn-color-special;
+  } @else {
+    color: $hn-color;
+  }
+  font: {
+    weight: 600;
+    style: italic;
+  }
+}

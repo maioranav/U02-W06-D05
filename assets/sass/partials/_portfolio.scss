@@ -1,0 +1,54 @@
+.card {
+  scale: 1;
+  transition: scale 0.5s ease;
+  border-radius: 10px;
+  @if $specialTheme {
+    border: 2px solid $card-border-special;
+    box-shadow: 3px 3px 10px $card-border-special !important;
+  } @else {
+    border: 2px solid $card-border;
+    box-shadow: 3px 3px 10px $card-border !important;
+  }
+  &:hover {
+    scale: 1.02;
+  }
+  img {
+    border-radius: 8px;
+  }
+  @if $specialTheme {
+    background-color: $card-bg-special;
+    color: $card-txt-special;
+  } @else {
+    background-color: $card-bg;
+    color: $card-txt;
+  }
+  small {
+    @if $specialTheme {
+      background-color: $card-bg-special;
+      color: $card-txt-special !important;
+    } @else {
+      background-color: $card-bg;
+      color: $card-txt !important;
+    }
+  }
+  a {
+    @if $specialTheme {
+      background-color: $pfbtn-sbg !important;
+      color: $pfbtn-stxt !important;
+      border-color: $pfbtn-sbghover !important;
+    } @else {
+      background-color: $pfbtn-bg !important;
+      color: $pfbtn-txt !important;
+      border-color: $pfbtn-bghover !important;
+    }
+    &:hover {
+      @if $specialTheme {
+        background-color: $pfbtn-sbghover !important;
+        color: $pfbtn-stxthover !important;
+      } @else {
+        background-color: $pfbtn-bghover !important;
+        color: $pfbtn-txthover !important;
+      }
+    }
+  }
+}

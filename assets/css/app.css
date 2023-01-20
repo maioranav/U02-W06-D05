@@ -1,5 +1,78 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-style: italic;
+}
+
+nav {
+  background-color: #ffffff;
+}
+nav a {
+  color: rgb(0, 0, 0) !important;
+}
+nav a:hover {
+  color: rgb(17, 0, 255) !important;
+}
+
 #evidence img {
   aspect-ratio: 5/1;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.card {
+  scale: 1;
+  transition: scale 0.5s ease;
+  border-radius: 10px;
+  border: 2px solid rgba(64, 77, 255, 0.144);
+  box-shadow: 3px 3px 10px rgba(64, 77, 255, 0.144) !important;
+  background-color: rgb(255, 255, 255);
+  color: rgb(27, 27, 27);
+}
+.card:hover {
+  scale: 1.02;
+}
+.card img {
+  border-radius: 8px;
+}
+.card small {
+  background-color: rgb(255, 255, 255);
+  color: rgb(27, 27, 27) !important;
+}
+.card a {
+  background-color: white !important;
+  color: black !important;
+  border-color: blue !important;
+}
+.card a:hover {
+  background-color: blue !important;
+  color: white !important;
+}
+
+#testimonials {
+  background: rgba(255, 255, 255, 0.5) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  border-radius: 20px !important;
+}
+#testimonials > h2 {
+  padding: 30px;
+}
+#testimonials img {
+  box-shadow: 2px 2px 10px rgb(17, 0, 255);
+}
+#testimonials h5,
+#testimonials div > div > p {
+  color: rgb(17, 0, 255);
+}
+#testimonials div > div > p:last-child {
+  color: black;
 }/*# sourceMappingURL=app.css.map */

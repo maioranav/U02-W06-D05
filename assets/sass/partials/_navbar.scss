@@ -1,0 +1,21 @@
+@if $specialTheme {
+  nav {
+    background-color: $navbar-bg-special;
+    a {
+      color: $navbar-txt-special !important;
+      &:hover {
+        color: $txt-accent-special !important;
+      }
+    }
+  }
+} @else {
+  nav {
+    background-color: $navbar-bg;
+    a {
+      color: $navbar-txt !important;
+      &:hover {
+        color: $txt-accent !important;
+      }
+    }
+  }
+}
