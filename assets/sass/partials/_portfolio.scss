@@ -23,11 +23,10 @@
     color: $card-txt;
   }
   small {
+    background: none;
     @if $specialTheme {
-      background-color: $card-bg-special;
       color: $card-txt-special !important;
     } @else {
-      background-color: $card-bg;
       color: $card-txt !important;
     }
   }

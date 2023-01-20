@@ -1,22 +1,22 @@
 body {
-  background-color: white;
-  color: black;
+  background-color: rgb(3, 0, 27);
+  color: rgb(255, 251, 249);
 }
 
 h2 {
-  color: rgb(0, 0, 0);
+  color: rgb(243, 239, 239);
   font-weight: 600;
   font-style: italic;
 }
 
 nav {
-  background-color: #ffffff;
+  background-color: rgb(255, 187, 0);
 }
 nav a {
-  color: rgb(0, 0, 0) !important;
+  color: #0000ff !important;
 }
 nav a:hover {
-  color: rgb(17, 0, 255) !important;
+  color: rgb(243, 139, 34) !important;
 }
 
 #evidence img {
@@ -29,10 +29,10 @@ nav a:hover {
   scale: 1;
   transition: scale 0.5s ease;
   border-radius: 10px;
-  border: 2px solid rgba(64, 77, 255, 0.144);
-  box-shadow: 3px 3px 10px rgba(64, 77, 255, 0.144) !important;
-  background-color: rgb(255, 255, 255);
-  color: rgb(27, 27, 27);
+  border: 2px solid rgb(136, 136, 136);
+  box-shadow: 3px 3px 10px rgb(136, 136, 136) !important;
+  background-color: rgba(255, 191, 96, 0.644);
+  color: rgb(255, 255, 255);
 }
 .card:hover {
   scale: 1.02;
@@ -41,17 +41,17 @@ nav a:hover {
   border-radius: 8px;
 }
 .card small {
-  background-color: rgb(255, 255, 255);
-  color: rgb(27, 27, 27) !important;
+  background: none;
+  color: rgb(255, 255, 255) !important;
 }
 .card a {
   background-color: white !important;
-  color: black !important;
-  border-color: blue !important;
+  color: rgb(255, 187, 0) !important;
+  border-color: rgb(255, 208, 0) !important;
 }
 .card a:hover {
-  background-color: blue !important;
-  color: white !important;
+  background-color: rgb(255, 208, 0) !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 #testimonials {
@@ -67,12 +67,12 @@ nav a:hover {
   padding: 30px;
 }
 #testimonials img {
-  box-shadow: 2px 2px 10px rgb(17, 0, 255);
+  box-shadow: 2px 2px 10px rgb(243, 139, 34);
 }
 #testimonials h5,
 #testimonials div > div > p {
-  color: rgb(17, 0, 255);
+  color: rgb(243, 139, 34);
 }
 #testimonials div > div > p:last-child {
-  color: black;
+  color: rgb(255, 251, 249);
 }/*# sourceMappingURL=app.css.map */
