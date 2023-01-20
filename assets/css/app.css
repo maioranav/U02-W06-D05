@@ -88,6 +88,7 @@ nav a:hover {
   color: black;
 }
 
-footer p {
-  color: black;
+footer p,
+footer a {
+  color: black !important;
 }/*# sourceMappingURL=app.css.map */
