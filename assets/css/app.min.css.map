@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"app.min.css"}
+{"version":3,"sources":["../sass/partials/_fluidhome.scss"],"names":[],"mappings":"AACE,cACE,gBAAA,CACA,mBAAA,CAAA,gBAAA","file":"app.min.css"}
