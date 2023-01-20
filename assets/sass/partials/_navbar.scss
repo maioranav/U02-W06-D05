@@ -3,7 +3,8 @@
     background-color: $navbar-bg-special;
     a {
       color: $navbar-txt-special !important;
-      &:hover {
+      &:hover,
+      &.navbar-brand {
         color: $txt-accent-special !important;
       }
     }

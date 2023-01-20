@@ -1,0 +1,9 @@
+footer {
+  p {
+    @if $specialTheme {
+      color: $footer-special !important;
+    } @else {
+      color: $txt-color;
+    }
+  }
+}

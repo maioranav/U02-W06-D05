@@ -1,4 +1,15 @@
 .card {
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    small {
+      @media screen and (min-width: 764px) and (max-width: 992px) {
+        display: none;
+      }
+    }
+  }
+  height: 100%;
   scale: 1;
   transition: scale 0.5s ease;
   border-radius: 10px;

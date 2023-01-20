@@ -1,22 +1,22 @@
 body {
-  background-color: rgb(3, 0, 27);
+  background-color: #140f2d;
   color: rgb(255, 251, 249);
 }
 
 h2 {
-  color: rgb(243, 239, 239);
+  color: #f49d37;
   font-weight: 600;
   font-style: italic;
 }
 
 nav {
-  background-color: rgb(255, 187, 0);
+  background-color: #140f2d;
 }
 nav a {
-  color: #0000ff !important;
+  color: #3f88c5 !important;
 }
-nav a:hover {
-  color: rgb(243, 139, 34) !important;
+nav a:hover, nav a.navbar-brand {
+  color: #f49d37 !important;
 }
 
 #evidence img {
@@ -26,13 +26,24 @@ nav a:hover {
 }
 
 .card {
+  height: 100%;
   scale: 1;
   transition: scale 0.5s ease;
   border-radius: 10px;
-  border: 2px solid rgb(136, 136, 136);
-  box-shadow: 3px 3px 10px rgb(136, 136, 136) !important;
-  background-color: rgba(255, 191, 96, 0.644);
-  color: rgb(255, 255, 255);
+  border: 2px solid #f49d37;
+  box-shadow: 3px 3px 10px #f49d37 !important;
+  background-color: #3f88c5;
+  color: white;
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (min-width: 764px) and (max-width: 992px) {
+  .card .card-body small {
+    display: none;
+  }
 }
 .card:hover {
   scale: 1.02;
@@ -42,16 +53,16 @@ nav a:hover {
 }
 .card small {
   background: none;
-  color: rgb(255, 255, 255) !important;
+  color: white !important;
 }
 .card a {
   background-color: white !important;
-  color: rgb(255, 187, 0) !important;
-  border-color: rgb(255, 208, 0) !important;
+  color: #d72638 !important;
+  border-color: #d72638 !important;
 }
 .card a:hover {
-  background-color: rgb(255, 208, 0) !important;
-  color: rgb(0, 0, 0) !important;
+  background-color: #d72638 !important;
+  color: white !important;
 }
 
 #testimonials {
@@ -67,12 +78,16 @@ nav a:hover {
   padding: 30px;
 }
 #testimonials img {
-  box-shadow: 2px 2px 10px rgb(243, 139, 34);
+  box-shadow: 2px 2px 10px #f49d37;
 }
 #testimonials h5,
 #testimonials div > div > p {
-  color: rgb(243, 139, 34);
+  color: #f49d37;
 }
 #testimonials div > div > p:last-child {
   color: rgb(255, 251, 249);
+}
+
+footer p {
+  color: rgb(165, 165, 165) !important;
 }/*# sourceMappingURL=app.css.map */
