@@ -57,11 +57,11 @@ nav a:hover, nav a.navbar-brand {
 }
 .card a {
   background-color: white !important;
-  color: #d72638 !important;
-  border-color: #d72638 !important;
+  color: #dd8e33 !important;
+  border-color: #dd8e33 !important;
 }
 .card a:hover {
-  background-color: #d72638 !important;
+  background-color: #dd8e33 !important;
   color: white !important;
 }
 
